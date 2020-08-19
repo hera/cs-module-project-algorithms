@@ -12,10 +12,7 @@ def moving_zeroes(arr):
         else:
             num_zeroes += 1
     
-    for j in range(num_zeroes):
-        result.append(0)
-    
-    return result
+    return result + [0] * num_zeroes
 
 
 if __name__ == '__main__':
